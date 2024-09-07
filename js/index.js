@@ -5,7 +5,7 @@ const userAge = 21;
 // Los datos estan de prueba, he probado con datos que sigan las normas de registro y sale todo true
 const userNameCheck = userName.length >= 5;
 
-const number = /[0-9]/gi;
+const number = /[0-9]/;
 const numberSearch = password.search(number);
 const isNumber = numberSearch >= 0;
 
