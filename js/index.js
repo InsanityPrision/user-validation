@@ -9,7 +9,7 @@ const number = /[0-9]/;
 const numberSearch = password.search(number);
 const isNumber = numberSearch >= 0;
 
-const letterCase = /[A-Z]/;
+const letterCase = /[A-Z][Á,À,É,È,Í,Ì,Ó,Ò,Ú,Ù]/;
 const letterCaseSearch = password.search(letterCase);
 const isLetterCase = letterCaseSearch >= 0;
 
